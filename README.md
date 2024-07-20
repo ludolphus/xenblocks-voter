@@ -38,3 +38,7 @@ The lightnode will also write into a log file (voter.log) in the same directory.
 On a MacBook Pro Intel 2,6 GHz 6-Core Intel Core i7 it takes about 2 seconds to verify 100 hashes.
 
 On a RaspberryPi 4 ARMv7 Processor it takes about 23 seconds to verify 100 hashes. This is fast enough since it takes about 1 second for a new xenblock to be found, so at least every 100 seconds it needs to do the verification.
+
+## Acknowledgements
+
+This version of the xenblocks lightnode is based on the original created by Jack Levin at https://github.com/jacklevin74/voter
