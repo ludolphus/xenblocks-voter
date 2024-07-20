@@ -1,0 +1,23 @@
+{
+  "name": "xenblocks-voter",
+  "version": "1.0.0",
+  "description": "Voter fetches records from XENBLOCKs ledger and runs verification in CPU",
+  "main": "voter.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "xenblocks",
+    "voter",
+    "xen"
+  ],
+  "author": "Ludolphus",
+  "license": "MIT",
+  "dependencies": {
+    "argon2": "0.40.3",
+    "commander": "^10.0.0",
+    "axios": "^1.5.1",
+    "@solana/web3.js": "^1.95.1",
+    "p-map": "^4.0.0"
+  }
+}
