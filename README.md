@@ -5,7 +5,7 @@ Voter fetches records from XENBLOCKs ledger and runs verification in CPU
 
 Install NodeJS, see https://nodejs.org/ for instructions for your OS (macOS, Linux and Windows supported). Tested with NodeJS version 18 and 20.
 
-Open a terminal (or command prompt on Windows)
+Open a terminal (or command prompt on Windows). Anywhere a line starts with $ do not type that $, only the command and arguments after it ;).
 
 Check if nodejs is installed:
 
@@ -32,6 +32,16 @@ As your lightnode runs, it will submit computed data to xenblocks consensus ledg
 http://xenminer.mooo.com:5000/show_data
 
 The lightnode will also write into a log file (voter.log) in the same directory.
+
+## Oneliner install (Linux)
+
+Run this just once on Ubuntu/Debian like Linux systems:
+
+$ (command -v git >/dev/null 2>&1 || sudo apt install -y git) && (command -v node >/dev/null 2>&1 || sudo apt install -y nodejs) && git clone https://github.com/ludolphus/xenblocks-voter && cd xenblocks-voter && npm install
+
+After it completes run the voter with:
+
+$ node voter.js
 
 ## Tested machines
 
