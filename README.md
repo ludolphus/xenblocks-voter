@@ -49,6 +49,11 @@ On a MacBook Pro Intel 2,6 GHz 6-Core Intel Core i7 it takes about 2 seconds to 
 
 On a RaspberryPi 4 ARMv7 Processor it takes about 23 seconds to verify 100 hashes. This is fast enough since it takes about 1 second for a new xenblock to be found, so at least every 100 seconds it needs to do the verification.
 
+## Web based voter
+
+Also available: the web based xenblocks voter https://bulkminter.com/xenblocks-webvoter/
+The web voter creates a new wallet in your browser. The private key is stored in localStorage and can be easily retrieved using the website. Because of the way the voter backend is setup (not using ssl) the web voter uses a proxy on bulkminter.com to relay traffic to the voter backend. It concerns these two endpoints: http://xenblocks.io:4447/getblocks/lastblock and http://xenminer.mooo.com:5000/store_data
+
 ## Acknowledgements
 
 This version of the xenblocks lightnode is based on the original created by Jack Levin at https://github.com/jacklevin74/voter
