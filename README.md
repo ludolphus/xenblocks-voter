@@ -52,7 +52,7 @@ On a RaspberryPi 4 ARMv7 Processor it takes about 23 seconds to verify 100 hashe
 ## Web based voter
 
 Also available: the web based xenblocks voter https://bulkminter.com/xenblocks-webvoter/
-The web voter creates a new wallet in your browser. The private key is stored in localStorage and can be easily retrieved using the website. Because of the way the voter backend is setup (not using ssl) the web voter uses a proxy on bulkminter.com to relay traffic to the voter backend. It concerns these two endpoints: http://xenblocks.io:4447/getblocks/lastblock and http://xenminer.mooo.com:5000/store_data
+The web voter creates a new wallet in your browser. The private key is stored in localStorage and can be easily retrieved using the website. Because of the way the voter backend is setup (not using ssl) the web voter uses a proxy on bulkminter.com to relay traffic to the voter backend. It concerns these two endpoints: http://xenblocks.io:4447/getblocks/lastblock and http://xenblocks.io:5000/show_data/store_data
 
 ## Acknowledgements
 

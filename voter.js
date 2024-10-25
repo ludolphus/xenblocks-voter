@@ -108,7 +108,7 @@ async function main() {
                 console.log(`\nFinal Output:\n${jsonOutput}`);
 
                 try {
-                    const postResponse = await client.post('http://xenminer.mooo.com:5000/store_data', jsonOutput, {
+                    const postResponse = await client.post('http://xenblocks.io:5000/store_data', jsonOutput, {
                         headers: {
                             'Content-Type': 'application/json'
                         }
