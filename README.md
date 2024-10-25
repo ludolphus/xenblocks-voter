@@ -29,7 +29,7 @@ During initialization, the lightnode will create id.json file with your private 
 
 As your lightnode runs, it will submit computed data to xenblocks consensus ledger, which can be accessed here:
 
-http://xenminer.mooo.com:5000/show_data
+http://xenblocks.io:5000/show_data
 
 The lightnode will also write into a log file (voter.log) in the same directory.
 
